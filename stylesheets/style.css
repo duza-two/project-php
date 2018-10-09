@@ -1,0 +1,237 @@
+/* CSS for the index page */
+.navi {
+  background-color: #032f3e;
+  margin-bottom: 0;
+}
+.navi h5 {
+  font-family: 'Alex Brush', cursive;
+  font-size: 28px;
+  color: #1fff0c;
+  font-weight: 400;
+}
+.navi nav a {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+main section .main-layout {
+  height: 100vh;
+  background-image: url("../images/people-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% -108px;
+}
+
+section .main-heading h1 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #182242;
+  padding: 120px 0 20px 0;
+  width: 800px;
+  margin: 0 auto;
+}
+
+section .main-text p {
+  font-size: 35px;
+  font-weight: 300;
+  width: 900px;
+  margin: 50px auto 20px auto;
+  padding-top: 10px;
+  color: #182242;
+}
+
+.main-layout .btn {
+  background-color: #032f3e;
+  color: #FFF;
+  border-radius: none;
+  margin-top: 100px;
+}
+
+section .main-service {
+  min-height: 80vh;
+}
+
+section .main-service h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+section .serv-info-text p {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+section .main-service h2 {
+  padding: 20px 0;
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+}
+
+section .info-text p {
+  width: 300px;
+  text-align: center;
+}
+
+section .call4action .one {
+  height: 300px;
+  background-image: url("../images/johannesburg.jpg");
+  background-position: 0 -150px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section .call-heading h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-align: center;
+  padding-top: 117px;
+}
+
+section .call-text p {
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+}
+
+section .call4action .two {
+  height: 150px;
+  background-color: #101010;
+  padding-top: 20px;
+  border-top: 2px solid #032f3e;
+}
+
+section .action-heading h3 {
+  color: #FFF;
+  text-align: center;
+}
+
+section .accredit {
+  height: 200px;
+}
+
+footer .main-foot {
+  height: 100px;
+  background-color: #032f3e;
+}
+
+footer .main-foot p {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+}
+
+footer foot-text-3 a {
+  font-size: 10px;
+}
+
+/* Services Page */
+section .service-page {
+  min-height: 100vh;
+}
+
+section .service-heading h1 {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  padding: 40px 0 20px 0;
+  font-family: 'Roboto', san-sans-serif;
+}
+
+section .service-text p {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+section .serv-btn {
+  text-align: center;
+  padding-top: 40px;
+}
+
+section .service-page .btn {
+  background-color: #032f3e;
+  color: #FFF;
+  margin-bottom: 40px;
+}
+
+section .info_one {
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 150px;
+  padding-bottom: 20px;
+}
+
+section .info_two {
+  text-align: left;
+  padding-top: 40px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+
+/* Contact Page */
+section .contact-page .cont-heading h1 {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 40px 40px 20px 40px;
+}
+
+section .contact-page .cont-text p {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+section .contact-page input {
+  width: 500px;
+  border-color: #1458D7;
+}
+
+section .contact-page textarea {
+  width: 500px;
+  border-color: #1458D7;
+}
+
+section form {
+  padding: 0 0 50px 200px;
+}
+
+section .contact-page .contact-info {
+  width: 400px;
+  text-align: center;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+section .about-page {
+  min-height: 100vh;
+}
+
+section .about-page .about-heading {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+section .about-page .about-info p {
+  font-size: 20px;
+
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #1fff0c;
+  color: #000;
+}
+
+section .serv-btn .btn:hover {
+  background-color: #1fff0c;
+  color: #000;
+}
