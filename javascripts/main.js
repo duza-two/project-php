@@ -3,7 +3,7 @@ var serv_info = {
     "bridge.jpg",
     "an image of a bridge",
     "Bookkeepering",
-    "We pride ourselve on recording and providing accurate and reliable books",
+    "We pride ourselve on recording and providing accurate and reliable records",
     [
       "Debtors Reconciliation",
       "Creditors Reconciliation",

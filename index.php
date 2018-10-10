@@ -36,7 +36,7 @@
                     <h2>Bookkeeping</h2>
                   </div>
                   <div class="info-text">
-                    <p class="d-block mx-auto">The benefit of having a full-time bookkeeper means that you have access to your management account with delay.</p>
+                    <p class="d-block mx-auto">The benefit of having a full-time bookkeeper means that you have access to your management account without delay.</p>
                   </div>
                 </div>
                 <div class="col-4 info-payroll">
@@ -58,7 +58,7 @@
                     <h2>Administration</h2>
                   </div>
                   <div class="info-text">
-                    <p class="d-block mx-auto">We know that running a business involve a lot of paper work. Let us take some of the load and assist with your administration.</p>
+                    <p class="d-block mx-auto">We know that running a business involve a lot of paper work. Let us take off some of the load and assist with your administration.</p>
                   </div>
                 </div>
             </div>
