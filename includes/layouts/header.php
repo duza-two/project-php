@@ -14,12 +14,26 @@
 </head>
 <body>
   <!-- Navbar -->
-  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 border-bottom border-primary navi">
-    <h5 class="my-0 mr-md-auto font-weight-normal">Daglyn Consulting</h5>
-    <nav class="my-2 my-md-0 mr-md-3">
-      <a class="p-2 text-light" href="index.php">Home</a>
-      <a class="p-2 text-light" href="about.php">About</a>
-      <a class="p-2 text-light" href="services.php">Services</a>
-      <a class="p-2 text-light" href="contact.php">Contact</a>
+  <nav class="navbar p-3 navbar-expand-md navbar-dark navi">
+      <h5 class="my-0 mr-md-auto font-weight-normal">Daglyn Consulting</h5>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="index.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="about.php">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="services.php">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="contact.php">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-  </div>

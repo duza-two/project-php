@@ -235,3 +235,28 @@ section .serv-btn .btn:hover {
   background-color: #1fff0c;
   color: #000;
 }
+
+/* mobile responsive css */
+
+@media only screen and (max-width: 320px) {
+  section .main-heading h1 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    width: 300px;
+    margin-top: -65px;
+  }
+  section .main-text p {
+    font-size: 20px;
+    font-weight: 450;
+    text-align: center;
+    width: 300px;
+    margin-top: 0;
+  }
+  .main-layout .btn {
+    margin-top: 40px;
+  }
+  main section .main-layout {
+    background-position: 50% -20px;
+  }
+}
