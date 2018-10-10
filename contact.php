@@ -3,17 +3,16 @@
 <?php include("includes/layouts/header.php") ?>
 <?php
 if(isset($_POST["submit"])) {
-    $recipient="d_sm9@hotmail.com";
-    $subject="Form to email message";
-    $sender=$_POST["name"];
-    $senderEmail=$_POST["email"];
-    $message=$_POST["comment"];
+    $recipient = "d_sm9@hotmail.com";
+    $subject = "Form to email message";
+    $sender = $_POST["name"];
+    $senderEmail = $_POST["email"];
+    $message = $_POST["comment"];
 
-    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+    $mailBody="Name: " . $sender. "\nEmail: " . $senderEmail ."\n\n" . $message;
 
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
-
-    echo $thankYou="<p>Thank you! Your message has been sent.</p>";
+    mail($recipient, $subject, $mailBody, "From: " . $sender . "<" . $senderEmail . ">");
+    header("Location: contact.php?mailsend");
 }
 ?>
 
@@ -28,7 +27,6 @@ if(isset($_POST["submit"])) {
         <div class="cont-text">
           <p>This is some text inside of a div block</p>
         </div>
-        <?php $thankYou ?>
         <div class="row">
         <div class="col-6">
           <form action="contact.php" method="post" enctype="text/plain">
