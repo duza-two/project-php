@@ -2,7 +2,7 @@
 <?php require_once("includes/functions.php") ?>
 <?php include("includes/layouts/header.php") ?>
 <?php
-/*if($_POST["submit"]) {
+if(isset($_POST["submit"])) {
     $recipient="d_sm9@hotmail.com";
     $subject="Form to email message";
     $sender=$_POST["name"];
@@ -13,9 +13,8 @@
 
     mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
 
-    $thankYou="<p>Thank you! Your message has been sent.</p>";
+    echo $thankYou="<p>Thank you! Your message has been sent.</p>";
 }
-*/
 ?>
 
 
