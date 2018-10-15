@@ -238,7 +238,8 @@ section .serv-btn .btn:hover {
 
 /* mobile responsive css */
 
-@media only screen and (max-width: 320px) {
+@media (max-width: 320px) {
+  /* Landing page */
   section .main-heading h1 {
     font-size: 25px;
     font-weight: 700;
@@ -258,5 +259,158 @@ section .serv-btn .btn:hover {
   }
   main section .main-layout {
     background-position: 50% -20px;
+  }
+  section .main-service h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  section .serv-info-text p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  section .main-service .info-text p {
+    font-size: 15px;
+    width: 250px;
+    margin-bottom: 25px;
+  }
+  section .call4action .one {
+    height: 200px;
+  }
+  section .call-heading h1 {
+    font-size: 25px;
+    padding: 35px 0 20px 0;
+  }
+  section .accredit {
+    height: 330px;
+  }
+  section .action-heading h3 {
+    font-size: 20px;
+  }
+  footer .main-foot {
+    height: 250px;
+  }
+  footer .main-foot a {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* Service page */
+  section .service-heading h1 {
+    font-size: 25px;
+    padding-top: 0;
+    margin-top: 20px;
+  }
+  section .service-text p {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+  section .serv-btn {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 150px;
+    margin: 0 auto;
+  }
+  section .serv-btn .btn-2, section .serv-btn .btn-3 {
+    margin-top: -30px;
+  }
+  section .info_one {
+    width: 100%;
+    padding: 0;
+  }
+  section .info_two {
+    width: 100%;
+    padding: 0;
+  }
+  section .info_one h1{
+    font-size: 25px;
+    margin-top: -20px;
+    width: 300px;
+  }
+  section .info_two h1{
+    font-size: 25px;
+    text-align: center;
+    margin-top: -15px;
+  }
+  section .info_one h1{
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    margin-top: -15px;
+  }
+  section .info_two p{
+    font-size: 15px;
+    font-weight: 600;
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+  }
+  section .info_one p{
+    font-size: 15px;
+    font-weight: 600;
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+  }
+  section .info_two ul{
+    width: 300px;
+    text-align: center;
+  }
+  section .info_one ul{
+    width: 300px;
+    text-align: center;
+  }
+  section .info_one img {
+    display: none;
+  }
+  section .info_two img {
+    display: none;
+  }
+  /* Contact page */
+  section .contact-page .cont-heading h1 {
+    font-size: 25px;
+    padding: 20px;
+  }
+  section .contact-page .cont-text p {
+    font-size: 18px;
+    padding: 0 20px;
+    text-align: center;
+    margin: -10px auto auto 0;
+  }
+  section form {
+    padding: 0;
+  }
+  section .contact-page input {
+    width: 280px;
+    margin-left: 5%;
+  }
+  section .contact-page label {
+    margin-left: 5%;
+  }
+  section .contact-page small {
+    margin-left: 5%;
+  }
+  section .contact-page textarea {
+    width: 280px;
+    margin-left: 5%;
+  }
+  section .contact-page .btn {
+    margin-left: 5%;
+  }
+  section .contact-page .contact-info {
+    padding: 0;
+    width: 100%;
+  }
+  section .contact-page h2 {
+    font-size: 25px;
+    padding: 20px 0;
+  }
+  section .contact-page p {
+    font-size: 18px;
+    width: 280px;
+    margin: 0 auto;
+    padding: 5px 0 20px 0;
   }
 }

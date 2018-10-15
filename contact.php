@@ -28,7 +28,7 @@ if(isset($_POST["submit"])) {
           <p>This is some text inside of a div block</p>
         </div>
         <div class="row">
-        <div class="col-6">
+        <div class="col-lg-6 col-xs-12">
           <form action="contact.php" method="post" enctype="text/plain">
               <div class="form-group">
                 <label for="cont-name">Name</label>
@@ -47,7 +47,7 @@ if(isset($_POST["submit"])) {
               <button type="submit" name="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>
-          <div class="col-6">
+          <div class="col-lg-6 col-xs-12">
             <div class="contact-info">
               <h2>Contact us now</h2>
               <p>Your bookkeeping and payroll should not be neglected. Contact us now on: </p>

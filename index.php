@@ -28,7 +28,7 @@
         </div>
           <div class="container">
             <div class="row">
-                <div class="col-4 info-book">
+                <div class="col-lg-4 col-xs-12 info-book">
                   <div class="info-book-image">
                     <img src="images/accounting-64.png" class="d-block mx-auto" alt="clipart image of a chart and calculator" width="100px" height="100px">
                   </div>
@@ -39,7 +39,7 @@
                     <p class="d-block mx-auto">The benefit of having a full-time bookkeeper means that you have access to your management account without delay.</p>
                   </div>
                 </div>
-                <div class="col-4 info-payroll">
+                <div class="col-lg-4 col-xs-12 info-payroll">
                   <div class="info-payroll-image">
                     <img src="images/payroll-64.png" class="d-block mx-auto" alt="clipart image two people with a coin" width="100px" height="100px">
                   </div>
@@ -50,7 +50,7 @@
                     <p class="d-block mx-auto">Do not let deadline of payroll submissions creep up on you. We will ensure that your SARS submissions are completed and submitted timeously.</p>
                   </div>
                 </div>
-                <div class="col-4 info-admin">
+                <div class="col-lg-4 col-xs-12 info-admin">
                   <div class="info-admin-image">
                     <img src="images/admin.png" class="d-block mx-auto" alt="clipart image document file" width="100px" height="100px">
                   </div>
@@ -90,11 +90,11 @@
     <section>
       <div class="container accredit">
         <div class="row">
-          <div class="col-6 pt-5">
+          <div class="col-lg-6 col-xs-12 pt-5">
             <img src="images/SARS-Logo.jpg" class="mx-auto d-block" alt="South African Revenue Services logo" width="200" height="100">
           </div>
-          <div class="col-6 pt-5">
-            <img src="images/ICB-logo.jpg" class="mx-auto d-block" alt="The Institute of certified bookkeepers logo" width="250" height="100">
+          <div class="col-lg-6 col-xs-12 pt-5">
+            <img src="images/ICB-logo.jpg" class="mx-auto d-block" alt="The Institute of certified bookkeepers logo" width="100" height="100">
           </div>
       </div>
       </div>
