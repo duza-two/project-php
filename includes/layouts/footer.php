@@ -1,7 +1,7 @@
 <footer>
     <div class="row main-foot pt-4">
       <div class="col-lg-4 col-xs-12 foot-text-1 text-center">
-        <p>Daglyn Consulting Copy © 2018</p>
+        <p>Daglyn Consulting Copyright © 2018</p>
       </div>
       <div class="col-lg-4 col-xs-12 foot-text-2 text-center">
         <p>Daglyn Consulting is a bookkeeping firm whose focusing is on excellence.</p>

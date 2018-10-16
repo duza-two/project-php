@@ -13,9 +13,12 @@
   font-size: 16px;
   font-weight: 400;
 }
+.navi li:hover {
+  border-bottom: 2px solid #455a64;
+}
 
 main section .main-layout {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("../images/people-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,12 +26,12 @@ main section .main-layout {
 }
 
 section .main-heading h1 {
-  font-size: 50px;
+  font-size: 313%;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
   color: #182242;
   padding: 120px 0 20px 0;
-  width: 800px;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -113,7 +116,11 @@ section .action-heading h3 {
 section .accredit {
   height: 200px;
 }
-
+section .accredit .accred h3{
+  font-size: 25px;
+  text-align: center;
+  padding: 20px 0;
+}
 footer .main-foot {
   height: 100px;
   background-color: #032f3e;
@@ -237,9 +244,14 @@ section .serv-btn .btn:hover {
 }
 
 /* mobile responsive css */
+@media (max-width: 768px) {
 
+}
 @media (max-width: 320px) {
   /* Landing page */
+  .navi li a {
+    text-align: center;
+  }
   section .main-heading h1 {
     font-size: 25px;
     font-weight: 700;
@@ -276,23 +288,24 @@ section .serv-btn .btn:hover {
   }
   section .call4action .one {
     height: 200px;
+    background-image: none;
+    background-color: #999;
   }
   section .call-heading h1 {
     font-size: 25px;
     padding: 35px 0 20px 0;
   }
   section .accredit {
-    height: 330px;
+    height: 200px;
   }
   section .action-heading h3 {
     font-size: 20px;
   }
   footer .main-foot {
-    height: 250px;
+    height: 200px;
   }
-  footer .main-foot a {
-    margin-top: 0;
-    margin-bottom: 0;
+  footer .main-foot .foot-text-2, footer .main-foot .foot-text-3 {
+    margin-top: -40px;
   }
   /* Service page */
   section .service-heading h1 {
@@ -357,10 +370,12 @@ section .serv-btn .btn:hover {
   section .info_two ul{
     width: 300px;
     text-align: center;
+    list-style:none;
   }
   section .info_one ul{
     width: 300px;
     text-align: center;
+    list-style:none;
   }
   section .info_one img {
     display: none;
@@ -407,7 +422,7 @@ section .serv-btn .btn:hover {
     font-size: 25px;
     padding: 20px 0;
   }
-  section .contact-page p {
+  section .contact-page contact-text {
     font-size: 18px;
     width: 280px;
     margin: 0 auto;

@@ -81,7 +81,7 @@
               <h3>Click on the button below to see our full service offering!</h3>
             </div>
             <div class="action-btn text-center">
-              <a href="services.php"><button class="btn mt-2 pb-2">Lean More</button></a>
+              <a href="services.php"><button class="btn btn-light mt-2 pb-2">Lean More</button></a>
             </div>
           </div>
         </article>
@@ -89,11 +89,8 @@
     </section>
     <section>
       <div class="container accredit">
-        <div class="row">
-          <div class="col-lg-6 col-xs-12 pt-5">
-            <img src="images/SARS-Logo.jpg" class="mx-auto d-block" alt="South African Revenue Services logo" width="200" height="100">
-          </div>
-          <div class="col-lg-6 col-xs-12 pt-5">
+          <div class="accred">
+            <h3>Accreditation</h3>
             <img src="images/ICB-logo.jpg" class="mx-auto d-block" alt="The Institute of certified bookkeepers logo" width="100" height="100">
           </div>
       </div>

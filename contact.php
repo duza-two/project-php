@@ -2,21 +2,19 @@
 <?php require_once("includes/functions.php") ?>
 <?php include("includes/layouts/header.php") ?>
 <?php
-if(isset($_POST["submit"])) {
-    $recipient = "duza_2@yahoo.com";
-    $subject = "Form to email message";
-    $sender = $_POST["name"];
-    $senderEmail = $_POST["email"];
-    $message = $_POST["comment"];
+  if(isset($_POST["submit"])) {
+      $recipient = "d_sm9@hotmail.com";
+      $subject = "Form to email message";
+      $sender = $_POST["name"];
+      $senderEmail = $_POST["email"];
+      $message = $_POST["comment"];
 
-    $mailBody="Name: " . $sender. "\nEmail: " . $senderEmail ."\n\n" . $message;
+      $mailBody="Name: " . $sender. "\nEmail: " . $senderEmail ."\n\n" . $message;
 
-    mail($recipient, $subject, $mailBody, "From: " . $sender . "<" . $senderEmail . ">");
-    header("Location: contact.php?mailsend");
-}
+      mail($recipient, $subject, $mailBody, "From: " . $sender . "<" . $senderEmail . ">");
+      header("Location: contact.php");
+  }
 ?>
-
-
 <main>
   <section>
     <div class="">
@@ -29,7 +27,7 @@ if(isset($_POST["submit"])) {
         </div>
         <div class="row">
         <div class="col-lg-6 col-xs-12">
-          <form action="contact.php" method="post" enctype="text/plain">
+          <form action="contact.php" method="post">
               <div class="form-group">
                 <label for="cont-name">Name</label>
                 <input type="text" name="name" class="form-control" id="cont-email" aria-describedby="nameHelp" placeholder="Enter name">
@@ -50,9 +48,9 @@ if(isset($_POST["submit"])) {
           <div class="col-lg-6 col-xs-12">
             <div class="contact-info">
               <h2>Contact us now</h2>
-              <p>Your bookkeeping and payroll should not be neglected. Contact us now on: </p>
-              <p>Contact: 083 380 7185</p>
-              <p>email: info&#64;daglynconsulting.co.za</p>
+              <p class="contact-text">Your bookkeeping and payroll should not be neglected. Contact us now on: </p>
+              <p class="contact-text">Contact: 083 380 7185</p>
+              <p class="contact-text">email: info&#64;daglynconsulting.co.za</p>
             </div>
           </div>
         </div>

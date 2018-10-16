@@ -22,7 +22,7 @@ var serv_info = {
     "Payroll",
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
     [
-      "payroll processing and payslip",
+      "Payroll processing and payslip",
       "EMP201 submission",
       "EMP501 submission"
     ]
@@ -33,7 +33,7 @@ var serv_info = {
     "Administration",
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
     [
-      "administration and document or report typing",
+      "Administration and document or report typing",
       "Formatting documentation",
       "Editing lauguage and punctuation"
     ]
