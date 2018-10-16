@@ -1,20 +1,6 @@
 <?php /*require_once("includes/db_connection.php")*/ ?>
 <?php require_once("includes/functions.php") ?>
 <?php include("includes/layouts/header.php") ?>
-<?php
-  if(isset($_POST["submit"])) {
-      $recipient = "d_sm9@hotmail.com";
-      $subject = "Form to email message";
-      $sender = $_POST["name"];
-      $senderEmail = $_POST["email"];
-      $message = $_POST["comment"];
-
-      $mailBody="Name: " . $sender. "\nEmail: " . $senderEmail ."\n\n" . $message;
-
-      mail($recipient, $subject, $mailBody, "From: " . $sender . "<" . $senderEmail . ">");
-      header("Location: contact.php");
-  }
-?>
 <main>
   <section>
     <div class="">
@@ -27,7 +13,7 @@
         </div>
         <div class="row">
         <div class="col-lg-6 col-xs-12">
-          <form action="contact.php" method="post">
+          <form action="email_form.php" method="post">
               <div class="form-group">
                 <label for="cont-name">Name</label>
                 <input type="text" name="name" class="form-control" id="cont-email" aria-describedby="nameHelp" placeholder="Enter name">
