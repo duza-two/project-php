@@ -6,7 +6,7 @@
   <main>
     <section>
       <div class="main-layout">
-        <div class="main-heading text-center">
+        <div class="main-heading">
           <h1>SPECIALISTS IN BOOKKEEPING SERVICES</h1>
         </div>
         <div class="main-text text-center">

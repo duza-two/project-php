@@ -26,19 +26,20 @@ main section .main-layout {
 }
 
 section .main-heading h1 {
-  font-size: 313%;
+  font-size: 3rem;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
+  text-align: center;
   color: #182242;
-  padding: 120px 0 20px 0;
-  width: 60%;
+  padding: 15vh 0 5vh 0;
+  width: 70%;
   margin: 0 auto;
 }
 
 section .main-text p {
-  font-size: 35px;
+  font-size: 2.25rem;
   font-weight: 300;
-  width: 900px;
+  width: 90%;
   margin: 50px auto 20px auto;
   padding-top: 10px;
   color: #182242;
@@ -245,22 +246,44 @@ section .serv-btn .btn:hover {
 
 /* mobile responsive css */
 @media (max-width: 768px) {
-
+  main section .main-layout {
+    min-height: 100vh;
+  }
+  section .main-heading h1 {
+    font-size: 2.5rem;
+    padding: 50px 0 0 0;
+  }
+  section .main-text p {
+    font-size: 2rem;
+    padding-top: 0;
+  }
+  .main-layout .btn {
+    padding-top: 0;
+  }
 }
-@media (max-width: 320px) {
+@media (max-width: 600px) {
+  section .main-heading h1 {
+    font-size: 2rem;
+  }
+  section .main-text p {
+    font-size: 1.75rem;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 360px) {
   /* Landing page */
   .navi li a {
     text-align: center;
   }
   section .main-heading h1 {
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
-    width: 300px;
     margin-top: -65px;
   }
   section .main-text p {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 450;
     text-align: center;
     width: 300px;
