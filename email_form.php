@@ -8,7 +8,9 @@ if(isset($_POST['submit'])){
     $message = $first_name . " wrote the following:" . "\n\n" . $_POST['comment'];
     $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['comment'];
 
-    $headers = "From:" . $from;
+    $headers  = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $headers .= 'From:' . $from . "\r\n";
     $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
     echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
