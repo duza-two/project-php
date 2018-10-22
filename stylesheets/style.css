@@ -33,7 +33,7 @@ section .main-heading h1 {
   color: #182242;
   padding: 15vh 0 5vh 0;
   width: 70%;
-  margin: 0 auto;
+margin: 0 auto;
 }
 
 section .main-text p {
@@ -123,8 +123,9 @@ section .accredit .accred h3{
   padding: 20px 0;
 }
 footer .main-foot {
-  height: 100px;
+  min-height: 20%;
   background-color: #032f3e;
+  padding-top: 20px;
 }
 
 footer .main-foot p {
@@ -133,7 +134,7 @@ footer .main-foot p {
   color: #FFF;
 }
 
-footer foot-text-3 a {
+footer .foot-text-3 a {
   font-size: 10px;
 }
 
@@ -245,32 +246,26 @@ section .serv-btn .btn:hover {
 }
 
 /* mobile responsive css */
+@media (max-width: 800px) {
+
+}
 @media (max-width: 768px) {
-  main section .main-layout {
-    min-height: 100vh;
-  }
   section .main-heading h1 {
     font-size: 2.5rem;
-    padding: 50px 0 0 0;
+    padding: 20% 0 0 0;
   }
   section .main-text p {
     font-size: 2rem;
-    padding-top: 0;
+    padding-top: 10%;
   }
   .main-layout .btn {
     padding-top: 0;
   }
 }
-@media (max-width: 600px) {
-  section .main-heading h1 {
-    font-size: 2rem;
-  }
-  section .main-text p {
-    font-size: 1.75rem;
-    padding-top: 0;
-  }
+@media (max-width: 414px) {
 }
-
+@media (max-width: 375px) {
+}
 @media (max-width: 360px) {
   /* Landing page */
   .navi li a {
@@ -325,7 +320,7 @@ section .serv-btn .btn:hover {
     font-size: 20px;
   }
   footer .main-foot {
-    height: 200px;
+    min-height: 25vh;
   }
   footer .main-foot .foot-text-2, footer .main-foot .foot-text-3 {
     margin-top: -40px;

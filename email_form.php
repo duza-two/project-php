@@ -1,14 +1,17 @@
 <?php
-  if(isset($_POST["submit"])) {
-      $recipient = "duza_2@yahoo.com";
-      $subject = "Form to email message";
-      $sender = $_POST["name"];
-      $senderEmail = $_POST["email"];
-      $message = $_POST["comment"];
+if(isset($_POST['submit'])){
+    $to = "d_sm9@hotmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['name'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $first_name . " wrote the following:" . "\n\n" . $_POST['comment'];
+    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['comment'];
 
-      $mailBody="Name: " . $sender. "\nEmail: " . $senderEmail ."\n\n" . $message;
-
-      mail($recipient, $subject, $mailBody, "From: " . $sender . "<" . $senderEmail . ">");
-      header("Location: contact.php?mailed");
-  }
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    header('Location: contact.php');
+    }
 ?>

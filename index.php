@@ -7,13 +7,13 @@
     <section>
       <div class="main-layout">
         <div class="main-heading">
-          <h1>SPECIALISTS IN BOOKKEEPING SERVICES</h1>
+          <h1>Excellence Integrity Punctuality</h1>
         </div>
         <div class="main-text text-center">
-          <p>Don't compromise on your financial needs. Choose a partner that would look after your bookkeeping.</p>
+          <p>Choose an affordable partner that will look after your bookkeeping and payroll</p>
         </div>
         <div class="text-center">
-          <a href="services.php"><button class="btn pr-4 pl-4 rounded-0">Learn More</button><a>
+          <a href="services.php"><button class="btn pr-4 pl-4 rounded-0">Services we offer</button><a>
         </div>
       </div>
     </section>
@@ -24,7 +24,6 @@
           <h1 class="text-center">Services We Offer<h1>
         </div>
         <div class="serv-info-text">
-          <p class="text-center">We offer more than just bookkeeping services</p>
         </div>
           <div class="container">
             <div class="row">
@@ -36,7 +35,7 @@
                     <h2>Bookkeeping</h2>
                   </div>
                   <div class="info-text">
-                    <p class="d-block mx-auto">The benefit of having a full-time bookkeeper means that you have access to your management account without delay.</p>
+                    <p class="d-block mx-auto">We provide Outsourced Bookkeeping Services on a monthly basis. Services are adapted to the specific needs of your business.</p>
                   </div>
                 </div>
                 <div class="col-lg-4 col-xs-12 info-payroll">
@@ -47,7 +46,7 @@
                     <h2>Payroll</h2>
                   </div>
                   <div class="info-text">
-                    <p class="d-block mx-auto">Do not let deadline of payroll submissions creep up on you. We will ensure that your SARS submissions are completed and submitted timeously.</p>
+                    <p class="d-block mx-auto"> Payroll and HR Services done for you, hence eliminating your worry or dread of payroll responsibilities and SARS submissions.</p>
                   </div>
                 </div>
                 <div class="col-lg-4 col-xs-12 info-admin">
