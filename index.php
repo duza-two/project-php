@@ -6,8 +6,12 @@
   <main>
     <section>
       <div class="main-layout">
-        <div class="main-heading">
-          <h1>Excellence Integrity Punctuality</h1>
+        <div class="main-heading hidding">
+          <ul class="fly-in hidding">
+            <li class="animated slideInLeft">Excellence</li>
+            <li class="animated slideInDown">Integrity</li>
+            <li class="animated slideInRight">Punctuality</li>
+          </ul>
         </div>
         <div class="main-text text-center">
           <p>Choose an affordable partner that will look after your bookkeeping and payroll</p>
@@ -21,15 +25,13 @@
     <section>
       <div class="main-service">
         <div class="Serv-info-heading">
-          <h1 class="text-center">Services We Offer<h1>
-        </div>
-        <div class="serv-info-text">
+            <h1 class="text-center" data-aos="fade-down" data-aos-duration="1000">Services We Offer</h1>
         </div>
           <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-xs-12 info-book">
+                <div class="col-lg-4 col-xs-12 info-book" data-aos="fade-up" data-aos-duration="1000">
                   <div class="info-book-image">
-                    <img src="images/accounting-64.png" class="d-block mx-auto" alt="clipart image of a chart and calculator" width="100px" height="100px">
+                    <img src="images/accounting-64.png" class="d-block mx-auto img-responsive" alt="clipart image of a chart and calculator" width="100px" height="100px">
                   </div>
                   <div class="info-book-heading">
                     <h2>Bookkeeping</h2>
@@ -38,7 +40,7 @@
                     <p class="d-block mx-auto">We provide Outsourced Bookkeeping Services on a monthly basis. Services are adapted to the specific needs of your business.</p>
                   </div>
                 </div>
-                <div class="col-lg-4 col-xs-12 info-payroll">
+                <div class="col-lg-4 col-xs-12 info-payroll" data-aos="fade-up" data-aos-duration="1000">
                   <div class="info-payroll-image">
                     <img src="images/payroll-64.png" class="d-block mx-auto" alt="clipart image two people with a coin" width="100px" height="100px">
                   </div>
@@ -49,7 +51,7 @@
                     <p class="d-block mx-auto"> Payroll and HR Services done for you, hence eliminating your worry or dread of payroll responsibilities and SARS submissions.</p>
                   </div>
                 </div>
-                <div class="col-lg-4 col-xs-12 info-admin">
+                <div class="col-lg-4 col-xs-12 info-admin" data-aos="fade-up" data-aos-duration="1000">
                   <div class="info-admin-image">
                     <img src="images/admin.png" class="d-block mx-auto" alt="clipart image document file" width="100px" height="100px">
                   </div>
@@ -67,10 +69,10 @@
     <section>
       <div class="call4action">
         <article class="one">
-          <div class="call-heading">
+          <div class="call-heading" data-aos="zoom-in" data-aos-duration="1000">
             <h1>Not Convinced yet?</h1>
           </div>
-          <div class="call-text">
+          <div class="call-text" data-aos="zoom-in" data-aos-duration="1000">
             <p>Would you like to see what exactly we have to offer?</p>
           </div>
         </article>

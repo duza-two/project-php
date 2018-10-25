@@ -1,6 +1,6 @@
 var serv_info = {
   but1: [
-    "bridge.jpg",
+    "analysis.jpg",
     "an image of a bridge",
     "Bookkeepering",
     "We pride ourselve on recording and providing accurate and reliable records",
@@ -17,7 +17,7 @@ var serv_info = {
     ]
   ],
   but2: [
-    "bridge.jpg",
+    "american.jpg",
     "an image of a bridge",
     "Payroll",
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
@@ -28,7 +28,7 @@ var serv_info = {
     ]
   ],
   but3: [
-    "bridge.jpg",
+    "binding-contract.jpg",
     "an image of a bridge",
     "Administration",
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
@@ -51,8 +51,8 @@ function layout_one() {
   var img = document.createElement("img");
   img.src = "images/" + serv_info.but1[0];
   img.setAttribute("alt", serv_info.but1[1]);
-  img.style.width = "300px";
-  img.style.height = "200px";
+  img.style.width = "350px";
+  img.style.height = "250px";
 
   var h = document.createElement("h1");
   var text_h = document.createTextNode(serv_info.but1[2]);
@@ -84,8 +84,8 @@ function layout_two() {
   var img = document.createElement("img");
   img.src = "images/" + serv_info.but2[0];
   img.setAttribute("alt", serv_info.but2[1]);
-  img.style.width = "300px";
-  img.style.height = "200px";
+  img.style.width = "350px";
+  img.style.height = "250px";
 
   var h = document.createElement("h1");
   var text_h = document.createTextNode(serv_info.but2[2]);
@@ -117,8 +117,8 @@ function layout_three() {
   var img = document.createElement("img");
   img.src = "images/" + serv_info.but3[0];
   img.setAttribute("alt", serv_info.but3[1]);
-  img.style.width = "300px";
-  img.style.height = "200px";
+  img.style.width = "350px";
+  img.style.height = "250px";
 
   var h = document.createElement("h1");
   var text_h = document.createTextNode(serv_info.but3[2]);

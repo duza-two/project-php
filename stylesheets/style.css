@@ -25,15 +25,17 @@ main section .main-layout {
   background-position: 50% -108px;
 }
 
-section .main-heading h1 {
-  font-size: 3rem;
-  font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+section .main-heading .fly-in {
+  list-style: none;
   text-align: center;
-  color: #182242;
-  padding: 15vh 0 5vh 0;
-  width: 70%;
-margin: 0 auto;
+}
+
+section .main-heading .fly-in li {
+  font-size: 3rem;
+  font-family: 'Roboto';
+  color: #032f3e;
+  display: inline-block;
+  padding: 7rem 2rem 1.9rem 2rem;
 }
 
 section .main-text p {
@@ -41,7 +43,7 @@ section .main-text p {
   font-weight: 300;
   width: 90%;
   margin: 50px auto 20px auto;
-  padding-top: 10px;
+  padding-top: 1rem;
   color: #182242;
 }
 
@@ -50,23 +52,17 @@ section .main-text p {
   color: #FFF;
   border-radius: none;
   margin-top: 100px;
+  padding-bottom: 10px;
 }
 
 section .main-service {
-  min-height: 80vh;
+  min-height: 65vh;
 }
 
 section .main-service h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  margin-top: 40px;
-}
-
-section .serv-info-text p {
-  font-size: 25px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  margin-bottom: 40px;
+  margin: 40px 0 20px 0;
 }
 
 section .main-service h2 {
@@ -138,6 +134,16 @@ footer .foot-text-3 a {
   font-size: 10px;
 }
 
+.fa-facebook-square:hover {
+  color: #1fff0c;
+}
+.fa-twitter:hover {
+  color: #1fff0c;
+}
+.fa-linkedin-in:hover {
+  color: #1fff0c;
+}
+
 /* Services Page */
 section .service-page {
   min-height: 100vh;
@@ -168,17 +174,36 @@ section .service-page .btn {
   margin-bottom: 40px;
 }
 
-section .info_one {
-  text-align: left;
-  padding-top: 40px;
-  padding-left: 150px;
-  padding-bottom: 20px;
+section .serv_tog h1 {
+  text-align: center;
+  margin-left: 2rem;
+}
+
+section .serv_tog img {
+  margin-left: 10.5rem;
+  margin-top: 3rem;
+}
+
+section .serv_tog #block_2 img {
+  margin-top: 1rem;
+}
+
+.serv_tog p {
+  text-align: center;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.serv_tog li {
+  text-align: center;
+  margin-left: 1rem;
 }
 
 section .info_two {
   text-align: left;
-  padding-top: 40px;
-  padding-right: 100px;
+  padding-top: 2rem;
+  padding-right: 5rem;
   padding-bottom: 20px;
 }
 
@@ -208,7 +233,7 @@ section .contact-page textarea {
 }
 
 section form {
-  padding: 0 0 50px 200px;
+  margin: 0 0 50px 200px;
 }
 
 section .contact-page .contact-info {
@@ -237,55 +262,171 @@ section .about-page .about-info p {
 
 .btn:hover {
   background-color: #1fff0c;
-  color: #000;
+  border-color: #1fff0c;
+  color: #fff;
 }
 
 section .serv-btn .btn:hover {
   background-color: #1fff0c;
-  color: #000;
+  border-color: #1fff0c;
+  color: #fff;
 }
 
 /* mobile responsive css */
 @media (max-width: 800px) {
-
+  section .main-heading .fly-in li {
+    font-size: 2.5rem;
+    padding: 10rem 1.5rem 1.9rem 2rem;
+  }
+  section .service-page {
+    padding-top: 4rem;
+  }
+  section .service-text p {
+    padding-top: 2rem;
+  }
+  section .serv-btn {
+    padding-top: 4rem;
+  }
+  section .serv_tog #block_2 {
+    padding-top: 4rem;
+  }
+  section .contact-page .contact-info {
+    margin-left: 10rem;
+    margin-bottom: 2rem;
 }
 @media (max-width: 768px) {
-  section .main-heading h1 {
+  section .main-service h1 {
     font-size: 2.5rem;
-    padding: 20% 0 0 0;
+    margin: -3.5rem 0 2rem 0;
   }
   section .main-text p {
     font-size: 2rem;
     padding-top: 10%;
   }
+  section .serv-btn {
+    padding-top: 2rem;
+  }
   .main-layout .btn {
     padding-top: 0;
   }
+  section .service-page {
+    padding-top: 2rem;
+  }
+  section .service-text p {
+    padding-top: 0rem;
+  }
+
+  section form {
+    margin: 0 0 0 9rem;
+  }
+
+  section .contact-page .contact-info {
+    margin-left: 9rem;
+  }
 }
 @media (max-width: 414px) {
+  section .main-heading .fly-in {
+    padding: 3rem 0 0 0;
+    margin: 0;
+  }
+    section .main-heading .fly-in li {
+      font-size: 2rem;
+      padding: 0;
+      display: block;
+    }
+    section .main-text p {
+      padding-top: 0;
+      margin-top: 3rem;
+    }
+    .main-layout .btn {
+      padding-top: 10px;
+      margin-top: 20%;
+    }
+    section .call4action .one {
+      height: 35vh;
+    }
+
+    section .call-heading h1 {
+      padding-top: 3.5rem;
+    }
+
+    section .call4action .two {
+      height: 25vh;
+    }
+    section .service-heading h1 {
+      font-size: 2rem;
+    }
+    section .service-text p {
+      font-size: 1.5rem;
+      width: 60%;
+      margin: 0 auto;
+    }
+    section .serv_tog img {
+      margin-left: 1rem;
+    }
+    .serv_tog #block_1 p {
+      text-align: center;
+      margin-left: 1rem;
+    }
+    .serv_tog #block_2 p {
+      text-align: center;
+      margin-left: 3.5rem;
+    }
+    section .contact-page .cont-heading h1 {
+      font-size: 2rem;
+    }
+    section .contact-page .cont-text p {
+      font-size: 1.5rem;
+      width: 80%;
+      margin: 0 auto;
+    }
+    section form {
+      margin-left: 4.5rem;
+    }
+    section .contact-page input {
+      width: 80%;
+    }
+    section .contact-page textarea {
+      width: 80%;
+    }
+    section .contact-page .contact-info {
+      margin-left: -2rem;
+    }
 }
 @media (max-width: 375px) {
+    .main-layout .btn {
+      margin-top: 2rem;
+    }
+    section .info_one img {
+      display: none;
+    }
+    section .info_two img {
+      display: none;
+    }
+    section .serv_tog #block_2 {
+      margin-top: -4rem;
+    }
+    section .contact-page .contact-info {
+      margin-left: -4rem;
+    }
 }
 @media (max-width: 360px) {
   /* Landing page */
+  section .main-heading .fly-in {
+    padding-top: 5rem;
+  }
   .navi li a {
     text-align: center;
-  }
-  section .main-heading h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-align: center;
-    margin-top: -65px;
   }
   section .main-text p {
     font-size: 1.25rem;
     font-weight: 450;
     text-align: center;
     width: 300px;
-    margin-top: 0;
+    margin-top: 5rem;
   }
   .main-layout .btn {
-    margin-top: 40px;
+    margin-top: 5rem;
   }
   main section .main-layout {
     background-position: 50% -20px;
@@ -293,7 +434,7 @@ section .serv-btn .btn:hover {
   section .main-service h1 {
     font-size: 30px;
     font-weight: 500;
-    margin: 0px;
+    margin: 2rem 0;
   }
   section .serv-info-text p {
     font-size: 20px;
@@ -340,7 +481,7 @@ section .serv-btn .btn:hover {
     display: grid;
     grid-template-columns: 1fr;
     width: 150px;
-    margin: 0 auto;
+    margin: 2rem auto;
   }
   section .serv-btn .btn-2, section .serv-btn .btn-3 {
     margin-top: -30px;
@@ -356,34 +497,25 @@ section .serv-btn .btn:hover {
   section .info_one h1{
     font-size: 25px;
     margin-top: -20px;
+    margin-left: 1.8rem;
     width: 300px;
   }
   section .info_two h1{
     font-size: 25px;
     text-align: center;
     margin-top: -15px;
-  }
-  section .info_one h1{
-    font-size: 25px;
-    width: 100%;
-    text-align: center;
-    margin-top: -15px;
+    margin-left: -0.1rem;
   }
   section .info_two p{
     font-size: 15px;
     font-weight: 600;
-    width: 280px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px 0;
+    margin-right: 2.5rem;
   }
   section .info_one p{
     font-size: 15px;
     font-weight: 600;
-    width: 280px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px 0;
+    padding-left: 2rem;
+    padding-right: 2.5rem;
   }
   section .info_two ul{
     width: 300px;
@@ -408,12 +540,12 @@ section .serv-btn .btn:hover {
   }
   section .contact-page .cont-text p {
     font-size: 18px;
-    padding: 0 20px;
+    padding-left: 4rem;
     text-align: center;
     margin: -10px auto auto 0;
   }
   section form {
-    padding: 0;
+    margin: 1rem;
   }
   section .contact-page input {
     width: 280px;
@@ -433,7 +565,7 @@ section .serv-btn .btn:hover {
     margin-left: 5%;
   }
   section .contact-page .contact-info {
-    padding: 0;
+    padding-left: 8rem;
     width: 100%;
   }
   section .contact-page h2 {
