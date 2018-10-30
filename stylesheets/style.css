@@ -100,9 +100,8 @@ section .call-text p {
 
 section .call4action .two {
   height: 150px;
-  background-color: #101010;
-  padding-top: 20px;
-  border-top: 2px solid #032f3e;
+  background-color: #032f3e;
+  padding-top: 30px;
 }
 
 section .action-heading h3 {
@@ -122,6 +121,7 @@ footer .main-foot {
   min-height: 20%;
   background-color: #032f3e;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 footer .main-foot p {
@@ -132,6 +132,7 @@ footer .main-foot p {
 
 footer .foot-text-3 a {
   font-size: 10px;
+  padding-top: 50px;
 }
 
 .fa-facebook-square:hover {
@@ -155,12 +156,6 @@ section .service-heading h1 {
   text-align: center;
   padding: 40px 0 20px 0;
   font-family: 'Roboto', san-sans-serif;
-}
-
-section .service-text p {
-  font-size: 30px;
-  font-weight: 400;
-  text-align: center;
 }
 
 section .serv-btn {
@@ -198,6 +193,7 @@ section .serv_tog #block_2 img {
 .serv_tog li {
   text-align: center;
   margin-left: 1rem;
+  list-style: none;
 }
 
 section .info_two {
@@ -213,13 +209,6 @@ section .contact-page .cont-heading h1 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   padding: 40px 40px 20px 40px;
-}
-
-section .contact-page .cont-text p {
-  font-size: 30px;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  padding-bottom: 20px;
 }
 
 section .contact-page input {
@@ -343,7 +332,7 @@ section .serv-btn .btn:hover {
       margin-top: 20%;
     }
     section .call4action .one {
-      height: 35vh;
+      height: 25vh;
     }
 
     section .call-heading h1 {
@@ -351,7 +340,7 @@ section .serv-btn .btn:hover {
     }
 
     section .call4action .two {
-      height: 25vh;
+      height: 22vh;
     }
     section .service-heading h1 {
       font-size: 2rem;
@@ -456,6 +445,10 @@ section .serv-btn .btn:hover {
   }
   section .accredit {
     height: 200px;
+  }
+
+  section .call4action .two {
+    height: 18vh;
   }
   section .action-heading h3 {
     font-size: 20px;

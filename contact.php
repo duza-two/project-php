@@ -8,9 +8,6 @@
         <div class="cont-heading">
           <h1>Contact Form</h1>
         </div>
-        <div class="cont-text">
-          <p>This is some text inside of a div block</p>
-        </div>
         <div class="row">
         <div class="col-lg-6 col-xs-12">
           <form action="email_form.php" method="post">
@@ -35,8 +32,8 @@
             <div class="contact-info">
               <h2>Contact us now</h2>
               <p class="contact-text">Your bookkeeping and payroll should not be neglected. Contact us now on: </p>
-              <p class="contact-text">Contact: 083 380 7185</p>
-              <p class="contact-text">email: info&#64;daglynconsulting.co.za</p>
+              <p class="contact-text"><i class="fas fa-phone"></i>: 083 380 7185</p>
+              <p class="contact-text"><i class="fas fa-envelope"></i> : info&#64;daglynconsulting.co.za</p>
             </div>
           </div>
         </div>

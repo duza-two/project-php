@@ -8,9 +8,6 @@
       <div class="service-heading">
         <h1>Services We Offer</h1>
       </div>
-      <div class="service-text">
-        <p>This is some text inside of a div block</p>
-      </div>
       <div class="serv-btn">
         <button class="btn btn-1" onclick="layout_one()">Bookkeeping</button>
         <button class="btn btn-2" onclick="layout_two()">Payroll</button>

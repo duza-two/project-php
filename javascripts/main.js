@@ -2,40 +2,44 @@ var serv_info = {
   but1: [
     "analysis.jpg",
     "an image of a bridge",
-    "Bookkeepering",
-    "We pride ourselve on recording and providing accurate and reliable records",
+    "Bookkeeping",
+    "Outsourced accounting services with a difference",
     [
-      "Debtors Reconciliation",
-      "Creditors Reconciliation",
-      "Bank Reconciliation",
-      "Capturing",
-      "Payments",
+      "Customer invoices, credit notes and reconciliations",
+      "Supplier invoices, credit notes and reports",
+      "Bank processing and reconciliation",
+      "Payments and reports",
+      "Petty Cash – management and recording",
       "Filing",
-      "VAT 201 Submissions",
-      "Management Reports",
-      "Bookkeeping transaction captured on Sage Pastel"
+      "Submission of bi-monthly VAT returns (VAT201)",
+      "Submission of individual tax returns (ITR12)",
+      "Management Reporting"
     ]
   ],
   but2: [
     "american.jpg",
     "an image of a bridge",
     "Payroll",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+    "Payroll and HR responsibilities done for you",
     [
-      "Payroll processing and payslip",
-      "EMP201 submission",
-      "EMP501 submission"
+      "Administration of payroll",
+      "Monthly submission of tax reports (EMP201)",
+      "Bi-Annual administration and submission of tax reports (EMP501)",
+      "Issue IRP5 Certificates"
     ]
   ],
   but3: [
     "binding-contract.jpg",
     "an image of a bridge",
     "Administration",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+    " Providing structure throughout a company",
     [
-      "Administration and document or report typing",
-      "Formatting documentation",
-      "Editing lauguage and punctuation"
+      "Planning",
+      "Organisation",
+      "Drafting documents and reports",
+      "Templates",
+      "Proofreading",
+      "Editing"
     ]
   ]
 }

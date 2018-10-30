@@ -59,7 +59,7 @@
                     <h2>Administration</h2>
                   </div>
                   <div class="info-text">
-                    <p class="d-block mx-auto">We know that running a business involve a lot of paper work. Let us take off some of the load and assist with your administration.</p>
+                    <p class="d-block mx-auto">We help ensure that your administrative activities within your business run professionally, by offering structure and templates to aid with general operations of the company.</p>
                   </div>
                 </div>
             </div>
@@ -68,18 +68,10 @@
     </section>
     <section>
       <div class="call4action">
-        <article class="one">
-          <div class="call-heading" data-aos="zoom-in" data-aos-duration="1000">
-            <h1>Not Convinced yet?</h1>
-          </div>
-          <div class="call-text" data-aos="zoom-in" data-aos-duration="1000">
-            <p>Would you like to see what exactly we have to offer?</p>
-          </div>
-        </article>
         <article  class="two">
           <div class="call-2">
             <div class="action-heading">
-              <h3>Click on the button below to see our full service offering!</h3>
+              <h3>Click on the button below</h3>
             </div>
             <div class="action-btn text-center">
               <a href="services.php"><button class="btn btn-light mt-2 pb-2">Lean More</button></a>

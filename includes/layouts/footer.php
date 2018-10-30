@@ -1,15 +1,15 @@
 <footer>
     <div class="row main-foot">
-      <div class="col-lg-4 col-xs-12 foot-text-1 text-center">
+      <div class="col-lg-4 col-xs-12 foot-text-1 pt-2 text-center">
         <p>Daglyn Consulting Copyright © 2018</p>
       </div>
-      <div class="col-lg-4 col-xs-12 foot-text-2 text-center">
-        <p>Daglyn Consulting is a bookkeeping firm whose focusing is on excellence.</p>
+      <div class="col-lg-4 col-xs-12 foot-text-2 pt-2 text-center">
+        <p>Services Captured on Sage Paste</p>
       </div>
       <div class="col-lg-4 col-xs-12 foot-text-4 text-center">
-        <a href=" https://www.facebook.com/Daglynconsulting" target="_blank"><i class="fab fa-facebook-square fa-lg pt-3 pr-2"></i></a>
-        <a href="#"><i class="fab fa-twitter fa-lg pr-2"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in fa-lg pt-3 pr-2"></i></a>
+        <a href=" https://www.facebook.com/Daglynconsulting" target="_blank"><i class="fab fa-facebook-square fa-lg pt-2 pr-2"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-lg pt-2 pr-2"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in fa-lg pt-2 pr-2"></i></a>
       </div>
     </div>
   </footer>
